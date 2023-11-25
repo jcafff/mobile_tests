@@ -128,34 +128,22 @@ adb devices
 
 ### Organização do projeto
 
-![image](.github/estruturadoprojeto.png)
-
-<img alt="NuClone" title="Robot" src=".github/estruturadoprojeto.png" width="100%" />
-````
-mobile_tests/
-  material/
-  placafip-imgs/
-  src/
-      apks/
-      capabilities/
-      .github/
-      resources/
-      tests/
-
-  curso.robot
-  requirements.txt
-````
+<h1 align="left">
+    <img alt="QAninja Academy" src=".github/estruturadoprojeto.pn" width="100%" />
+</h1>
 
 <ul>
-<li></li> imagens: imagens do README.md
-- material: Material da disciplina
-- placafip-imgs: Imagens do primeiro projeto para visualização.
-- src: Cógidos do projeto em questão
-- apks: aplicativos em uso no projeto.
-- capabilities: Pasta contendo o arquivo do capabilitie do projeto.    
-- .github: Imagens que estão sendo utilizadas para essa documentação inicial
-- tests: fluxos de teste de cada tela da aplicação. 
-- requirements.txt: dependências do projeto.
+    <li>material: Material da disciplina</li>
+    <li>placafip-imgs: Imagens do primeiro projeto para visualização.</li>
+    <li>src: Cógidos do projeto em questão</li>
+    <li>apks: aplicativos em uso no projeto.</li>
+    <li>capabilities: Pasta contendo o arquivo do capabilitie do projeto.</li>
+    <li>.github: Imagens que estão sendo utilizadas para essa documentação inicial</li>
+    <li>tests: fluxos de teste de cada tela da aplicação.</li>
+    <li>requirements.txt: dependências do projeto.</li>
+    <li>imagens: imagens do README.md</li>
+    <li>imagens: imagens do README.md</li>
+    <li>imagens: imagens do README.md</li>
 </ul>
 
 
