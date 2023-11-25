@@ -22,12 +22,6 @@ Você vai precisar instalar as seguintes ferramentas e tecnologias:
 ### Android Studio é a IDE oficial para desenvolvimento e testes de aplicativos para Android
 - Você pode baixar a ultima através [desse link](https://developer.android.com/studio/index.html?hl=pt-br)
 
-## 🔖 Variáveis de ambiente
-
-### Necessário configurar o **`ANDROID_HOME`** e **`JAVA_HOME`** no **`PATH`** do S.O.
-
-### Pelo ***Virtual Device Manager*** do ***Android Studio***, crie um device.
-
 ### No Linux ou Mac
 
 Configure as seguintes váriávies de ambiente no **bash_profile** ou **zshrc** do seu Linux ou Mac:
@@ -55,9 +49,11 @@ Para Bash, execute o comando:
 source ~/.bashrc
 ```
 
-### No Windows
+### 🔖 Variáveis de ambiente no Windows
 
-[![Audi R8](.github/windows.png)](https://youtu.be/ZsOq4xoTid0 "Variáveis de ambiente no Windows")
+### Necessário configurar o **`ANDROID_HOME`** e **`JAVA_HOME`** no **`PATH`** do S.O.
+
+### Pelo ***Virtual Device Manager*** do ***Android Studio***, crie um device.
 
 ### **Capabilities** configuradas no projeto de testes:
 
@@ -73,8 +69,10 @@ source ~/.bashrc
   "autoGrantPermissions": true
 }
 ```
+[![Audi R8](.github/windows.png)](https://youtu.be/ZsOq4xoTid0 "Variáveis de ambiente no Windows")
 
-## Passo a passo para executar o projeto ✅ ✅
+
+## ✅ ✅ Passo a passo para instalação e executar o projeto 
 
 ### Instalação do projeto 🚀 🚀
 
@@ -158,7 +156,7 @@ mobile_tests/
 </ul>
 
 
-## 📱Appium 
+## 📱 Executando o Appium 
 ### Instruções 📢 ℹ️ 
 
 - Inicie o Appium Server com o comando: 
@@ -178,15 +176,9 @@ npx appium &>/dev/null &
 - Dê um play no Android Device Virtual.
 ![Alt text](images/avd.png)
 
-
-## 🤔 Executar
-
-- Abra o Appium Desktop e clique em Start Server;
-- Acesse a pasta do projeto;
-- Instale o Robot e a Lib do Appium conforme descrito na [doc](https://robotframework.org/);
-- Execute o comando: `robot -d ./logs tests'`;
-- Enjoy.
-
----
-
-Made with ❤️ by [Marcos Pereira](https://github.com/MarcosPereira1).
+- Execute o comando:
+```bash
+robot -d ./logs tests
+```
+- Enjoy. [doc](https://robotframework.org/);
+- Made with ❤️ by Jean Carlos Figueiredo, .
