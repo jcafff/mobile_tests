@@ -176,4 +176,4 @@ npx appium &>/dev/null &
 robot -d ./logs tests
 ```
 - Enjoy. [doc](https://robotframework.org/);
-- Made with ❤️ by Jean Carlos Figueiredo, .
+- Made with ❤️ by Jean C. Figueiredo, Fernando Alonso, Cynthia, Rosangela, Wilma  .
