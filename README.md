@@ -129,7 +129,7 @@ adb devices
 ### Organização do projeto
 
 <h1 align="left">
-    <img alt="QAninja Academy" src=".github/estruturadoprojeto.pn" width="100%" />
+    <img alt="Projeto" src=".github/estruturadoprojeto.pn" width="100%" />
 </h1>
 
 <ul>
