@@ -61,7 +61,7 @@ source ~/.bashrc
 
 ### **Capabilities** configuradas no projeto de testes:
 
-- Existe um arquivo já configurado na pasta do projeto <capabilitie>, mas se precisar copiar daqui, fiquem avontade.
+- Existe um arquivo já configurado na pasta no projeto, capabilitie, mas se precisar copiar daqui, fiquem avontade.
 
 ```
 {
