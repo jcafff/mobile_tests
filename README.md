@@ -1,4 +1,4 @@
-![appium](https://github.com/jcafff/mobile_tests/assets/130839591/cdbcfbc3-9b0d-4797-baf0-dbfaaf0ea687)# Automação de testes Mobile com Robot Framework e Appium.
+# Automação de testes Mobile com Robot Framework e Appium.
 
 <h1 align="center">
     <img alt="NuClone" title="Robot" src=".github/splash.png" width="100%" />
