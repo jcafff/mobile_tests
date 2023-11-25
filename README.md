@@ -129,7 +129,7 @@ adb devices
 ### Organização do projeto
 
 <h1 align="left">
-    <img alt="Projeto" src=".github/estruturadoprojeto.pn" width="100%" />
+    <img alt="Projeto" src=".github/estruturadoprojeto.png" width="100%" />
 </h1>
 
 <ul>
@@ -162,10 +162,14 @@ npx appium server --unsafe-perm=true --allow-root
 ```bash
 npx appium &>/dev/null &
 ```
-![Alt text](images/appium.png)
+<h1 align="left">
+    <img alt="Appium" src=".github/appium.png" width="100%" />
+</h1>
 
 - Dê um play no Android Device Virtual.
-![Alt text](images/avd.png)
+<h1 align="left">
+    <img alt="Appium" src=".github/avd.png" width="100%" />
+</h1>
 
 - Execute o comando:
 ```bash
