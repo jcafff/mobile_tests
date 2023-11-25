@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "Android"
+    },
+    {
+      "type": "text",
+      "name": "appium:deviceName",
+      "value": "Android Emulator"
+    },
+    {
+      "type": "text",
+      "name": "appium:automationName",
+      "value": "UIAutomator2"
+    },
+    {
+      "type": "text",
+      "name": "appium:udid",
+      "value": "emulator-5554"
+    },
+    {
+      "type": "file",
+      "name": "appium:app",
+      "value": "C:\\QAx\\projects\\appium-robot\\apks\\app-curso.apk"
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {},
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "advanced": {},
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}

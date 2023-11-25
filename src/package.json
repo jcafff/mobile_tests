@@ -1,0 +1,21 @@
+{
+  "name": "appium-robot",
+  "version": "1.0.0",
+  "description": "Este projeto realiza o fluxo de automação do aplicativo [Curso de Appium](https://github.com/clarabez/appium-android-app) utilizando o [Robot Framework](https://robotframework.org/robotframework/).",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appium": "^2.1.3"
+  },
+  "devDependencies": {
+    "appium-uiautomator2-driver": "^2.34.1"
+  }
+}
