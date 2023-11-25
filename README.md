@@ -15,17 +15,18 @@ Você vai precisar instalar as seguintes ferramentas e tecnologias:
 - [Appium](http://appium.io/downloads.html) >=2.1.3
 - [Robot Framework](https://robotframework.org/) >=2
 
-### Necessário configurar o **`ANDROID_HOME`** e **`JAVA_HOME`** no **`PATH`** do S.O.
-### Pelo ***Virtual Device Manager*** do ***Android Studio***, crie um device.
-
 ## 💻 Ferramentas
 
-Você pode baixar e instalar o JDK 8 através [desse link](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html).
+### Você pode baixar e instalar o JDK 8 através [desse link](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html).
 
-Android Studio é a IDE oficial para desenvolvimento e testes de aplicativos para Android
-Você pode baixar a ultima através [desse link](https://developer.android.com/studio/index.html?hl=pt-br)
+### Android Studio é a IDE oficial para desenvolvimento e testes de aplicativos para Android
+- Você pode baixar a ultima através [desse link](https://developer.android.com/studio/index.html?hl=pt-br)
 
 ## 🔖 Variáveis de ambiente
+
+### Necessário configurar o **`ANDROID_HOME`** e **`JAVA_HOME`** no **`PATH`** do S.O.
+
+### Pelo ***Virtual Device Manager*** do ***Android Studio***, crie um device.
 
 ### No Linux ou Mac
 
@@ -57,6 +58,42 @@ source ~/.bashrc
 ### No Windows
 
 [![Audi R8](.github/windows.png)](https://youtu.be/ZsOq4xoTid0 "Variáveis de ambiente no Windows")
+
+### **Capabilities** configuradas no projeto de testes:
+
+- Existe um arquivo já configurado na pasta do projeto <capabilitie>, mas se precisar copiar daqui, fiquem avontade.
+
+```
+{
+  "platformName": "Android",
+  "deviceName": "Android Emulator",
+  "automationName": "UIAutomator2",
+  "app": "<caminho-do-projeto>/apks/app-curso.apk",
+  "udid": "<emulador instalado no seu PC>",
+  "autoGrantPermissions": true
+}
+```
+
+
+## Passo a passo para executar o projeto ✅ ✅
+
+### Sugiro o uso de algum ambiente virtual (virtualenv) para isolar as bibliotecas utilizadas aqui, mas não tem problemas iniciar o projeto sem um ambiente virtual. Mais sobre [ambientes virtuais aqui](https://realpython.com/lessons/creating-virtual-environment/).
+
+<ul>
+    <li>
+        Clonar o projeto:
+        ```
+        git clone https://github.com/clarabez/appium-robot.git
+        ```
+    </li>
+    <li>
+        - Existe um arquivo package.json já preparado pra instalar o appium e uiautomator2 para facilitar o uso da ferramenta. 
+    </li>
+</ul>
+
+
+
+
 
 ## 📱Appium 
 
