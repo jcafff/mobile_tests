@@ -128,6 +128,9 @@ adb devices
 
 ### Organização do projeto
 
+![image](.github/estruturadoprojeto.png)
+
+<img alt="NuClone" title="Robot" src=".github/estruturadoprojeto.png" width="100%" />
 ````
 mobile_tests/
   material/
@@ -144,7 +147,7 @@ mobile_tests/
 ````
 
 <ul>
-- imagens: imagens do README.md
+<li></li> imagens: imagens do README.md
 - material: Material da disciplina
 - placafip-imgs: Imagens do primeiro projeto para visualização.
 - src: Cógidos do projeto em questão
