@@ -133,12 +133,12 @@ adb devices
 </h1>
 
 <ul>
+    <li>.github: Imagens que estão sendo utilizadas para essa documentação inicial</li>
     <li>material: Material da disciplina</li>
     <li>placafip-imgs: Imagens do primeiro projeto para visualização.</li>
     <li>src: Cógidos do projeto em questão</li>
     <li>apks: aplicativos em uso no projeto.</li>
     <li>capabilities: Pasta contendo o arquivo do capabilitie do projeto.</li>
-    <li>.github: Imagens que estão sendo utilizadas para essa documentação inicial</li>
     <li>tests: fluxos de teste de cada tela da aplicação.</li>
     <li>requirements.txt: dependências do projeto.</li>
     <li>imagens: imagens do README.md</li>
