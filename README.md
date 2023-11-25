@@ -163,12 +163,12 @@ npx appium server --unsafe-perm=true --allow-root
 npx appium &>/dev/null &
 ```
 <h1 align="left">
-    <img alt="Appium" src=".github/appium.png" width="100%" />
+    <img alt="Servidor Appium" src=".github/appium.png" width="100%" />
 </h1>
 
 - Dê um play no Android Device Virtual.
 <h1 align="left">
-    <img alt="Appium" src=".github/avd.png" width="100%" />
+    <img alt="Emulador Android" src=".github/avd.png" width="100%" />
 </h1>
 
 - Execute o comando:
