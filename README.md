@@ -129,7 +129,7 @@ adb devices
 ### Organização do projeto
 
 <h1 align="left">
-    <img alt="Projeto" src=".github/estruturadoprojeto.png" width="100%" />
+    <img alt="Projeto" src=".github/estruturadoprojeto.png" width="19%" />
 </h1>
 
 <ul>
