@@ -4,16 +4,19 @@
     <img alt="NuClone" title="Robot" src=".github/splash.png" width="100%" />
 </h1>
 
-## 👨‍💻 Tecnologias
+## 👨‍💻 Pré-requisitos de ambiente
 
-Você vai precisar das seguintes ferramentas e tecnologias:
+Você vai precisar instalar as seguintes ferramentas e tecnologias:
 
-- [Python](https://www.python.org/downloads/)
-- [Node.js](https://nodejs.org/en/)
-- [Java JDK8](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
-- [Android Studio](https://developer.android.com/studio/index.html?hl=pt-br)
-- [Appium](http://appium.io/downloads.html)
-- [Robot Framework](https://robotframework.org/)
+- [Java JDK8](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html) 8.202
+- [Android Studio](https://developer.android.com/studio/index.html?hl=pt-br) 
+- [Python](https://www.python.org/downloads/) 3.11.4
+- [Node.js](https://nodejs.org/en/) 18.17.1
+- [Appium](http://appium.io/downloads.html) >=2.1.3
+- [Robot Framework](https://robotframework.org/) >=2
+
+### Necessário configurar o **`ANDROID_HOME`** e **`JAVA_HOME`** no **`PATH`** do S.O.
+### Pelo ***Virtual Device Manager*** do ***Android Studio***, crie um device.
 
 ## 💻 Ferramentas
 
@@ -54,7 +57,6 @@ source ~/.bashrc
 ### No Windows
 
 [![Audi R8](.github/windows.png)](https://youtu.be/ZsOq4xoTid0 "Variáveis de ambiente no Windows")
-
 
 ## 📱Appium 
 
