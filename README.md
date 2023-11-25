@@ -1,4 +1,4 @@
-# Automação de testes Mobile com Robot Framework e Appium.
+![appium](https://github.com/jcafff/mobile_tests/assets/130839591/cdbcfbc3-9b0d-4797-baf0-dbfaaf0ea687)# Automação de testes Mobile com Robot Framework e Appium.
 
 <h1 align="center">
     <img alt="NuClone" title="Robot" src=".github/splash.png" width="100%" />
@@ -74,53 +74,109 @@ source ~/.bashrc
 }
 ```
 
-
 ## Passo a passo para executar o projeto ✅ ✅
+
+### Instalação do projeto 🚀 🚀
+
+```bash
+pip install -r requirements.txt
+```
 
 ### Sugiro o uso de algum ambiente virtual (virtualenv) para isolar as bibliotecas utilizadas aqui, mas não tem problemas iniciar o projeto sem um ambiente virtual. Mais sobre [ambientes virtuais aqui](https://realpython.com/lessons/creating-virtual-environment/).
 
-<ul>
-    <li>
-        Clonar o projeto:
-        ```
-        git clone https://github.com/clarabez/appium-robot.git
-        ```
-    </li>
-    <li>
-        - Existe um arquivo package.json já preparado pra instalar o appium e uiautomator2 para facilitar o uso da ferramenta. 
-    </li>
-</ul>
-
-
-
-
-
-## 📱Appium 
-
-- Com o Node.js instalado, execute:
-
-  | Se estiver no Windows, execute no Prompt como Administrador
+* Clonar o projeto:
 
 ```bash
-npm install -g appium
-npm install -g appium-doctor
+git clone https://github.com/clarabez/appium-robot.git
 ```
 
-- Em seguida, execute:
+* Existe um arquivo package.json já preparado pra instalar o appium e uiautomator2 para facilitar o uso da ferramenta.
+  
+```bash
+npm install 
+```
+
+* Mas caso queria instalar tudo do zero, então siga os passos abaixo:
+  
+```bash
+npm install appium@2.1.3
+npm install appium-doctor
+```
+
+### Comandos para checagem do ambiente ✅ ✅
+
+* Se o ambiente está OK:
 
 ```bash
-appium-doctor --android
+npx appium-doctor --android
 ```
-
-- Deve aprensentar um resultado similar ao da imagem abaixo:
+* Deve aprensentar um resultado similar ao da imagem abaixo:
 
 <h1 align="left">
     <img alt="QAninja Academy" src=".github/doctor.png" width="100%" />
 </h1>
 
-## 📱Appium Desktop
+* Se o driver está instalado:
 
-Instale o Appium Desktop Latest release (não faça download do Pre-release)
+```bash
+npx appium driver list --installed
+```
+
+* Se o virtual device está ativo / online: **`adb devices`**
+
+```bash
+adb devices
+```
+
+### Organização do projeto
+
+````
+mobile_tests/
+  material/
+  placafip-imgs/
+  src/
+      apks/
+      capabilities/
+      .github/
+      resources/
+      tests/
+
+  curso.robot
+  requirements.txt
+````
+
+<ul>
+- imagens: imagens do README.md
+- material: Material da disciplina
+- placafip-imgs: Imagens do primeiro projeto para visualização.
+- src: Cógidos do projeto em questão
+- apks: aplicativos em uso no projeto.
+- capabilities: Pasta contendo o arquivo do capabilitie do projeto.    
+- .github: Imagens que estão sendo utilizadas para essa documentação inicial
+- tests: fluxos de teste de cada tela da aplicação. 
+- requirements.txt: dependências do projeto.
+</ul>
+
+
+## 📱Appium 
+### Instruções 📢 ℹ️ 
+
+- Inicie o Appium Server com o comando: 
+```bash
+npx appium server
+```
+- Se preferir rodar em background, use o comando:
+```bash
+npx appium server --unsafe-perm=true --allow-root
+```
+- Pra dar stop no serviço em background, use o comando:
+```bash
+npx appium &>/dev/null &
+```
+![Alt text](images/appium.png)
+
+- Dê um play no Android Device Virtual.
+![Alt text](images/avd.png)
 
 
 ## 🤔 Executar
